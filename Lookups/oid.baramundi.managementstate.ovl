@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="oid.baramundi.managementstate" desiredValue="1" undefinedState="Warning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="None" value="-1">
+        Not applicable
+      </SingleInt>
+      <SingleInt state="Warning" value="0">
+        Unknown
+      </SingleInt>
+      <SingleInt state="Warning" value="1">
+        Enrollable
+      </SingleInt>
+      <SingleInt state="Ok" value="2">
+        Enrolling
+      </SingleInt>
+      <SingleInt state="Ok" value="3">
+        Managed
+      </SingleInt>
+      <SingleInt state="Error" value="4">
+        Unmanaged
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
