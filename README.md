@@ -54,13 +54,10 @@ In order to create a sensor for the bMS, select the parent device and choose `Ad
 
 The following table contains some hints on the settings for specific sensors:
 
-|------------------------|----------------------|-------------------------------------------------------|
-|Sensor                  |Parent device         |Parameters                                             |
-|------------------------|----------------------|-------------------------------------------------------|
-|bMS Endpoint Summary.ps1|bMS server            |- none -                                               |
-|bMS Job Summary.ps1     |bMS server            |Job name                                               |
-|bMS Endpoint.ps1        |Device to be monitored|FQDN (or display name) of monitored device, e.g. %host.|
-|------------------------|----------------------|-------------------------------------------------------|
+Sensor; Parent device; Parameters
+- bMS Endpoint Summary.ps1; bMS server; -none-
+- bMS Job Summary.ps1; bMS server; Job name
+- bMS Endpoint.ps1; Device to be monitored; FQDN (or display name) of monitored device, e.g. %host
 
 
 ## Troubleshooting
