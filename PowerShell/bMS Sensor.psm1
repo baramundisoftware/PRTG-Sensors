@@ -1,4 +1,4 @@
-# Copyright (c) 2018 baramundi software AG - https://www.baramundi.com
+# Copyright (c) 2018 baramundi software GmbH - https://www.baramundi.com
 
 function Get-bConnectContextPath() {
     return Join-Path $PSScriptRoot ".bConnect.ctx"

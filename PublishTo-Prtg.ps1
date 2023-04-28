@@ -1,4 +1,4 @@
-# Copyright (c) 2018 baramundi software AG - https://www.baramundi.com
+# Copyright (c) 2018 baramundi software GmbH - https://www.baramundi.com
 
 Write-Host "$([System.DateTime]::Now.ToLongTimeString()): Copying lookups to PRTG Custom Lookups folder"
 Copy-Item .\Lookups\* "${env:ProgramFiles(x86)}\PRTG Network Monitor\Lookups\Custom" -Force -Verbose
